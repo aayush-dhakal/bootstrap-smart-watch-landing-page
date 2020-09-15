@@ -1,0 +1,129 @@
+html, body{
+	font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.header-bg{
+    background: linear-gradient(to left, rgba(33, 33, 33, 0.27), rgb(33, 33, 33)), url(watch.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	color: white;
+}
+.navbar{
+	background:transparent!important;
+	padding: 1.5rem 0;
+}
+.navbar-toggler{
+	background:#fff!important;
+	border:1px solid white;
+	border-radius: 0px;
+}
+.navbar-brand{
+	font-size: 2rem;
+	font-weight: 900i; /* i is for italics */
+	font-style: italic;
+	letter-spacing: 5px;
+	color: white!important;
+}
+.nav-link{
+	color: white!important;
+}
+a:hover{
+	background-color: grey;
+}
+.nav-item{
+	padding-right: 1rem;
+}
+.desc-main{
+	padding-top: 10rem;
+	padding-bottom: 5rem;
+}
+.desc-main p{
+	padding-top: 3rem;
+	font-weight: 100;
+}
+.desc-main img{
+	max-height: 50px;
+	margin:1.5rem 0;
+}
+.display-3{
+	font-weight: 100;
+}
+.components{
+	padding:5rem 0;
+	color: #333;
+}
+.components h5,p{
+	margin-top: 2rem;
+	font-weight: 300;
+}
+.components h5{
+	font-weight: 900;
+	letter-spacing: 2px;
+	font-size: 1rem;
+}
+.watch{
+	margin: 2rem 0;
+}
+.carousel-indicators{
+	margin-bottom: -1rem;
+}
+.carousel-indicators li{
+	background:#333;
+	margin-top: 3rem;
+}
+.carousel-indicators .active{
+	background:lightblue;
+}
+.download-bg{
+	background:linear-gradient(to right, rgba(0, 0, 0, 0), rgb(33, 33, 33)), url(watch-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding:5rem 0;
+	color: white;
+}
+.links{
+	padding:5rem 0;
+}
+.links h5{
+	margin-top: 3rem;
+}
+.links img{
+	height: 100%;
+	width: 75%;
+	float: right;
+}
+.contact-us{
+	text-align: center;
+	color: white;
+	background:#333;
+	padding:3rem 0;
+}
+.contact-us p{
+	font-weight: 100;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+    background-color:transparent;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0rem!important;
+}
+form{
+	margin-top: 4rem;
+}
+.footer{
+	padding:2rem 0;
+	color:#333;
+	font-weight: 100;
+	text-align: center;
+}
+.footer h5{
+	font-weight: 500;
+}
